@@ -4,16 +4,40 @@ body {
     margin: 0;
 }
 
-#headersearch {
+#header {
     display: flex;
     box-sizing: border-box;
     background-color: #fafafa;
     border-bottom: 1px solid #ebebeb;
-    position: absolute;
-    left: 0;
+    position: relative;
     width: 100%;
+}
+
+.heada {
+    text-decoration: none;
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 14px;
+    color: #000;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: .75;
+    padding-right: 18px;
+}
+
+#headerleft {
+    left: 0;
     height: 85px;
     padding-top: 20px;
+    width: 50%;
+    display: flex;
+}
+
+#headerright {
+    width: 50%;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 1.7em;
 }
 
 #logo {
@@ -62,8 +86,34 @@ body {
     background-color: #f2f2f2;
     border: 1px solid #e4e4e4;
     line-height: 40px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 0 29px;
+}
+
+#searchresults {
+    width: 632px;
+    position: relative;
+    margin: 1em;
+}
+
+.rhead {
+    font-size: 18px;
+}
+
+.rdesc {
+    font-size: small;
+}
+
+.pagesum {
+    line-height: 1.4;
+}
+
+.result {
+    margin-bottom: 26px;
+}
+
+.rdate {
+    color: #808080;
 }
