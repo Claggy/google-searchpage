@@ -37,20 +37,28 @@ body {
     width: 50%;
     text-align: right;
     margin-right: 30px;
-    margin-top: 1.7em;
+    margin-top: 28px;
 }
 
 #logo {
-    padding: 2px 12px 0 13px;
+    padding: 2px 17px 0 13px;
 }
 
 #searchbox {
     border: 0px solid;
     box-shadow: 0 2px 2px 0 #ccc, 0 0 0 1px #E4E4E4;
-    width: 584px;
+    width: 632px;
     height: 44px;
     padding: 0px 16px;
     box-sizing: border-box;
+    font: 16px arial, sans-serif;
+    position: relative;
+}
+
+#searchbutton {
+    position: absolute;
+    top: 31px;
+    left: 46.5em;
 }
 
 #searchbox:hover, #searchbox:focus {
