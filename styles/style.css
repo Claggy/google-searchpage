@@ -81,7 +81,7 @@ body {
     margin-left: -1px;
 }
 
-.nava:hover, .nava2:not(#tools):hover {
+.nava:hover, .nava2:not(#tools):hover, .foota:hover {
     color: #222;
 }
 
@@ -143,21 +143,41 @@ body {
     box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
+#resultstats {
+    line-height: 43px;
+    font-size: small;
+    font-family: arial, sans-serif;
+    color: #808080;
+    position: relative;
+    margin-left: 166px;
+}
+
 #footer {
     box-sizing: border-box;
     background-color: #f2f2f2;
     border: 1px solid #e4e4e4;
-    line-height: 40px;
+    line-height: 37px;
     position: relative;
     bottom: 0;
     width: 100%;
-    padding: 0 29px;
+    padding-left: 143px;
+    padding-top: 2px;
+}
+
+.foota {
+    display: inline-block;
+    color: #777;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    padding-left: 22.2px;
 }
 
 #searchresults {
     width: 632px;
     position: relative;
     margin: 1em;
+    margin-left: 166px;
 }
 
 .rhead {
