@@ -14,6 +14,15 @@ body {
     height: 86px;
 }
 
+a {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+b {
+    color: #6a6a6a;
+}
+
 .heada {
     text-decoration: none;
     vertical-align: middle;
@@ -152,6 +161,49 @@ body {
     margin-left: 166px;
 }
 
+#searchresults {
+    width: 632px;
+    position: relative;
+    margin-top: 9px;
+    margin-left: 150px;
+}
+
+.result {
+    margin-bottom: 25px;
+    line-height: 1.2;
+    padding: 0 16px;
+}
+
+.rhead {
+    font-size: 18px;
+}
+
+.rdesc {
+    font-size: small;
+}
+
+.siteurl {
+    font-size: 14px;
+    color: #006621;
+}
+
+.dwnarrow {
+    padding: 0 0 1px 5px;
+}
+
+.dwnarrow:hover {
+    cursor: pointer;
+}
+
+.pagesum {
+    line-height: 1.44;
+    color: #545454;
+}
+
+.rdate {
+    color: #808080;
+}
+
 #footer {
     box-sizing: border-box;
     background-color: #f2f2f2;
@@ -171,31 +223,4 @@ body {
     text-decoration: none;
     position: relative;
     padding-left: 22.2px;
-}
-
-#searchresults {
-    width: 632px;
-    position: relative;
-    margin: 1em;
-    margin-left: 166px;
-}
-
-.rhead {
-    font-size: 18px;
-}
-
-.rdesc {
-    font-size: small;
-}
-
-.pagesum {
-    line-height: 1.4;
-}
-
-.result {
-    margin-bottom: 26px;
-}
-
-.rdate {
-    color: #808080;
 }
