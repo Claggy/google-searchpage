@@ -230,6 +230,48 @@ b {
     color: #1a0dab;
 }
 
+#botnav {
+    width: 632px;
+}
+
+#bnav {
+    font-weight: normal;
+    border-collapse: collapse;
+    font-size: small;
+    margin: 30px 163px 30px;
+}
+
+#bnav a {
+    color: #4285f4;
+    font-size: small;
+}
+
+#bnav td {
+    text-align: center;
+    padding: 0;
+}
+
+.tdtg, .tdte {
+    display: block;
+}
+
+.tdtg {
+    height:63px;
+}
+
+.tdte {
+    height: 47px;
+}
+
+.tdt {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cur {
+    color: #000
+}
+
 #footer {
     box-sizing: border-box;
     background-color: #f2f2f2;
