@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 b {
     color: #6a6a6a;
 }
@@ -204,6 +208,28 @@ b {
     color: #808080;
 }
 
+#relsearch {
+    padding: 0 16px;
+    margin-bottom: 28px;
+    margin-top: 40px;
+}
+
+#relhead {
+    font-size: 18px;
+    line-height: 18px;
+    color: #222;
+    padding-bottom: 12px;
+}
+
+#rellinks {
+    font-size: 14px;
+    line-height: 12px;
+}
+
+#rellinks b {
+    color: #1a0dab;
+}
+
 #footer {
     box-sizing: border-box;
     background-color: #f2f2f2;
@@ -223,4 +249,5 @@ b {
     text-decoration: none;
     position: relative;
     padding-left: 22.2px;
+    bottom: 1px;
 }
